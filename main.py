@@ -19,8 +19,8 @@ def get_groq_api_key():
     if api_key:
         return api_key
     
-    # Otherwise, use the provided key (in production, should prompt instead)
-    return "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"
+    # Otherwise, use the provided key (in production, should prompt instead)(TOO BAD WONT WORK)
+    return "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" 
 
 def get_github_token():
     """Get GitHub token securely."""
